@@ -1,0 +1,7 @@
+## method	KMA
+## version	1.6.18
+## database	panres
+## command	synthetic: stands in for ARGprofiler detection on the test reads
+# refSequence	readCount	fragmentCount	mapScoreSum	refCoveredPositions	refConsensusSum	bpTotal	depthVariance	nucHighDepthVariance	depthMax	snpSum	insertSum	deletionSum	readCountAln	fragmentCountAln
+pan_27	176	88	50000	876	876	26400	1.0	0	40	0	0	0	176	88
+pan_1	2	1	300	150	150	300	0.1	0	2	0	0	0	2	1

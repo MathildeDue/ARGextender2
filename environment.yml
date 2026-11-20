@@ -1,0 +1,17 @@
+# ARGextender runtime environment. The versions are the ones the benchmark used; do not change them without
+# re-running the comparison. Not yet solved as one environment: during development Bandage + BLAST+ lived in
+# a separate environment.
+name: argextender
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.12
+  - networkx=3.4.2
+  - kma=1.6.18
+  - spades=3.15.5
+  - bandage=0.9.0
+  - blast=2.17.0
+  - pip
+  - pytest
